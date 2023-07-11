@@ -1,4 +1,5 @@
 def bonAppetit(bill, k, b)
+    for thing in bill
     # Write your code here
 
 end
