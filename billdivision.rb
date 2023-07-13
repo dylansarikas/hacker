@@ -1,5 +1,8 @@
 def bonAppetit(bill, k, b)
     for thing in bill
+        while x > code
+
+        end
     # Write your code here
 
 end
