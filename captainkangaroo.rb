@@ -12,11 +12,11 @@ def kangaroo(x1, v1, x2, v2)
 
         count = 0
         while difference > 0
-            count += 1
-            if count ==  10000
-                puts "overflow"
-                break
-            end
+            # count += 1
+            # if count ==  10000
+            #     puts "overflow"
+            #     break
+            # end
             # puts x1
             # puts x2
             # puts "going first"
@@ -36,11 +36,11 @@ def kangaroo(x1, v1, x2, v2)
 
         count = 0
         while difference > 0
-            count += 1
-            if count ==  10000
-                puts "overflow"
-                break
-            end
+            # count += 1
+            # if count ==  10000
+            #     puts "overflow"
+            #     break
+            # end
             # puts x1
             # puts x2
             # puts "going second"
