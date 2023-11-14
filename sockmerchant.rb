@@ -1,17 +1,11 @@
 def sockMerchant(n, ar)
+    
     socks = ar.uniq
-    #p socks
-    #p ar
     pairs = 0
+
     for sock in socks
-        #puts "sock"
-        #puts sock
         total_sock = ar.count(sock)
-        #puts "total"
-        #puts total_sock
         pairs = pairs + (total_sock / 2)
-        #puts "pairs"
-        #puts pairs
     end
     
     puts pairs
