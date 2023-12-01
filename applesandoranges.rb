@@ -1,10 +1,4 @@
 def countApplesAndOranges(s, t, a, b, apples, oranges)
-    # p s
-    # p t
-    # p a
-    # p b
-    # p apples
-    # p oranges
     landOrange = 0
     landApple = 0
     for apple in apples
