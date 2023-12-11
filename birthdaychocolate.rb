@@ -4,10 +4,7 @@ def birthday(s, d, m)
     total = 0
     day = []
     while month < s.count
-        #puts "blob"
         if (month + 1) < s.count || m == 1 #doesn't search past end of bar
-            #puts"whoopsie"
-            #for loop for d
             length = 0
             while length < m
                 #puts "oops"
@@ -17,10 +14,6 @@ def birthday(s, d, m)
                 end
                 length += 1
             end
-            #puts "stop"
-            #day.append(s[month])
-            #day.append(s[(month + 1)])
-            #puts day.sum
             if day.sum == d
                 total += 1
             end
