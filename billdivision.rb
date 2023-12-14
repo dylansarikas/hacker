@@ -1,7 +1,5 @@
 def bonAppetit(bill, k, b)
-    #p bill
     bill.delete_at(k)
-    #p bill
     output = 0
     total = bill.sum
     if (total/2) == b
