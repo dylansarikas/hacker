@@ -4,11 +4,7 @@ def is_valid_old(s)
     closing_match = {")" => "(", "}" => "{", "]" => "["}
     # p match
     output = false
-    # arr.push(arr.shift)
-    # if !arr.include?(")") || !arr.include?("}") || !arr.include?("]")
-    #     puts false
-    #     return false
-    # end
+
     while arr.length > 1
         # p arr
         if opening_match[arr[0]]
