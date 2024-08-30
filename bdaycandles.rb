@@ -1,7 +1,5 @@
 def birthdayCakeCandles(candles)
-    #p candles
     sorted = candles.sort
-    #p sorted
     tallest = sorted[-1]
     count = 0
     for candle in sorted
@@ -11,7 +9,6 @@ def birthdayCakeCandles(candles)
     end
 
     puts count
-    #p candles
     
 
 end
