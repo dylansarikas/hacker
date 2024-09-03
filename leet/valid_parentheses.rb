@@ -35,20 +35,14 @@ def is_valid(s)
     pancake_stack = []
     output = false
     while arr.length > 0 || pancake_stack.length > 0
-        # puts "arr: #{arr}"
-        # puts "pancake_stack: #{pancake_stack}"
         if opening_match[arr[0]]
-            # puts "wow"
             pancake_stack.push(arr.shift)
         else
-            # puts "no"
             if arr.length > 0 && closing_match[arr[0]] == pancake_stack[-1]
-            # puts "good"
             arr.shift
             pancake_stack.pop
             output = true
             else
-                # puts "oopsie"/
                 output = false
                 puts output
                 return output
