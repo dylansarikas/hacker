@@ -19,6 +19,7 @@ class MyLinkedList:
             index -= 1
         if current and current != self.right and index == 0:
             return current.val
+        return -1
 
     def addAtHead(self, val: int) -> None:
         node, next, prev = ListNode(val), self.left.next, self.left
@@ -52,6 +53,6 @@ class MyLinkedList:
             current = current.next
             index -= 1
         if current and current != self.right and index == 0:
-            next, prev = current, current.prev
+            next, prev = current.next, current.prev
             next.prev = prev
             prev.next = next
