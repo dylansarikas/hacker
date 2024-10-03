@@ -6,7 +6,7 @@ def word_pattern(pattern, s)
     ugh = Hash[pattern.chars.zip(s.split(' '))]
     # p ugh
     if map_pattern.keys.length == string_pattern.keys.length
-        # if map_pattern.values == string_pattern.values then return true else false end
+        if map_pattern.values != string_pattern.values then return false end
         pattern_arry = pattern.chars
         string_array = s.split(' ')
         pattern_arry.each_with_index do |value, index|
