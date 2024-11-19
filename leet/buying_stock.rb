@@ -3,9 +3,6 @@ def max_profit(prices)
     buy = 0
     sell = 1
     while sell < prices.length
-        # puts "wow"
-        # puts prices[buy]
-        # puts prices[sell]
         if prices[sell] < prices[buy]
             buy = sell
         else
