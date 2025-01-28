@@ -1,6 +1,6 @@
 def nerdify(text)
-    new = text.split()
-    length = new.length()
+    new = text.split(//)
+    length = new.length
     counter = 0
     while counter < length
         if new[counter] == "a" || new[counter] == "A"
@@ -13,11 +13,9 @@ def nerdify(text)
             new[counter] = 1
         end
         counter = counter + 1
-        new = new.join()
-        puts new
-        return new
     end
-    
+    new = new.join()
+    puts new  
 end
     
     
